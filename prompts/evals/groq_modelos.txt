@@ -1,0 +1,11 @@
+﻿allam-2-7b | contexto=4096 | ativo=True
+canopylabs/orpheus-arabic-saudi | contexto=4000 | ativo=True
+canopylabs/orpheus-v1-english | contexto=4000 | ativo=True
+meta-llama/llama-prompt-guard-2-22m | contexto=512 | ativo=True
+meta-llama/llama-prompt-guard-2-86m | contexto=512 | ativo=True
+openai/gpt-oss-120b | contexto=131072 | ativo=True
+openai/gpt-oss-20b | contexto=131072 | ativo=True
+openai/gpt-oss-safeguard-20b | contexto=131072 | ativo=True
+qwen/qwen3.8-27b | contexto=131072 | ativo=True
+whisper-large-v3 | contexto=448 | ativo=True
+whisper-large-v3-turbo | contexto=448 | ativo=True

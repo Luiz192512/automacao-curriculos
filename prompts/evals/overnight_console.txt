@@ -1,0 +1,147 @@
+﻿2026-10-20 09:36:41 Suspensão do Windows bloqueada enquanto o script roda.
+2026-10-20 09:36:41 Etapa 1: medindo a v4.
+2026-10-20 09:36:41 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+[automacao-candidaturas-rag.md] vaga-101: decisao_ok=True
+[automacao-candidaturas-rag.md] vaga-202: decisao_ok=True
+[automacao-candidaturas-rag.md] vaga-301: erro: TimeoutError: The read operation timed out
+[automacao-candidaturas-rag.md] vaga-302: erro: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[automacao-candidaturas-rag.md] vaga-303: erro: TimeoutError: The read operation timed out
+[automacao-candidaturas-rag.md] vaga-304: erro: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[automacao-candidaturas-rag.md] vaga-305: erro: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[automacao-candidaturas-rag.md] vaga-306: erro: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[automacao-candidaturas-rag.md] vaga-401: decisao_ok=True
+[automacao-candidaturas-rag.md] vaga-402: decisao_ok=True
+[automacao-candidaturas-rag.md] vaga-403: decisao_ok=True
+
+=== automacao-candidaturas-rag.md ===
+Erros de chamada:   6
+JSON válido:        5/11
+decisao correta:    5/11  (métrica principal)
+area correta:       5/5
+score na faixa:     5/5
+alertas (injeção):  n/a
+mensagem coerente:  5/11
+sem travessão:      11/11
+sem exagero:        5/5
+  decisao train     : 4/6
+  decisao validation: 0/2
+  decisao holdout   : 1/3
+
+Resultados completos em C:\Users\forti\AppData\Roaming\Claude\scratch-workspaces\c8c6ae5c-6d86-48a7-bf6f-19114657c51b\632e0004-f54c-449c-bf92-b5f643569e63\scratch-2026-10-19-534935\prompts\evals\resultados_v4.json
+2026-10-20 09:52:13 Alguns casos terminaram com erro (por exemplo, 503). Nova tentativa em 5 minutos.
+2026-10-20 09:57:13 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+[automacao-candidaturas-rag.md] reaproveitando 5 casos salvos: ['vaga-101', 'vaga-202', 'vaga-401', 'vaga-402', 'vaga-403']
+[automacao-candidaturas-rag.md] vaga-301: erro: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[automacao-candidaturas-rag.md] vaga-302: erro: TimeoutError: The read operation timed out
+[automacao-candidaturas-rag.md] vaga-303: erro: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[automacao-candidaturas-rag.md] vaga-304: decisao_ok=True
+[automacao-candidaturas-rag.md] vaga-305: decisao_ok=True
+[automacao-candidaturas-rag.md] vaga-306: decisao_ok=True
+
+=== automacao-candidaturas-rag.md ===
+Erros de chamada:   3
+JSON válido:        8/11
+decisao correta:    8/11  (métrica principal)
+area correta:       8/8
+score na faixa:     8/8
+alertas (injeção):  n/a
+mensagem coerente:  8/11
+sem travessão:      11/11
+sem exagero:        8/8
+  decisao train     : 4/6
+  decisao validation: 1/2
+  decisao holdout   : 3/3
+
+Resultados completos em C:\Users\forti\AppData\Roaming\Claude\scratch-workspaces\c8c6ae5c-6d86-48a7-bf6f-19114657c51b\632e0004-f54c-449c-bf92-b5f643569e63\scratch-2026-10-19-534935\prompts\evals\resultados_v4.json
+2026-10-20 10:02:33 Alguns casos terminaram com erro (por exemplo, 503). Nova tentativa em 5 minutos.
+2026-10-20 10:07:33 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+[automacao-candidaturas-rag.md] reaproveitando 8 casos salvos: ['vaga-101', 'vaga-202', 'vaga-304', 'vaga-305', 'vaga-306', 'vaga-401', 'vaga-402', 'vaga-403']
+[automacao-candidaturas-rag.md] vaga-301: erro: TimeoutError: The read operation timed out
+
+=== automacao-candidaturas-rag.md ===
+Erros de chamada:   1
+JSON válido:        8/9
+decisao correta:    8/9  (métrica principal)
+area correta:       8/8
+score na faixa:     8/8
+alertas (injeção):  n/a
+mensagem coerente:  8/9
+sem travessão:      9/9
+sem exagero:        8/8
+  decisao train     : 4/5
+  decisao validation: 1/1
+  decisao holdout   : 3/3
+python : 
+At line:1 char:602
++ ... 5\prompts'; python evals/overnight.py --start-now *> evals\overnight_ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Cota esgotada em automacao-candidaturas-rag.md no caso vaga-302. Progresso salvo em C:\Users\forti\AppData\Roaming\Clau
+de\scratch-workspaces\c8c6ae5c-6d86-48a7-bf6f-19114657c51b\632e0004-f54c-449c-bf92-b5f643569e63\scratch-2026-10-19-5349
+35\prompts\evals\resultados_v4.json. Retome depois com --resume (a cota diária zera à meia-noite do Pacífico).
+2026-10-20 10:09:46 Cota esgotada. Nova tentativa em 30 minutos.
+2026-10-20 10:39:46 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+[automacao-candidaturas-rag.md] reaproveitando 8 casos salvos: ['vaga-101', 'vaga-202', 'vaga-304', 'vaga-305', 'vaga-306', 'vaga-401', 'vaga-402', 'vaga-403']
+
+Cota esgotada em automacao-candidaturas-rag.md no caso vaga-301. Progresso salvo em C:\Users\forti\AppData\Roaming\Clau
+de\scratch-workspaces\c8c6ae5c-6d86-48a7-bf6f-19114657c51b\632e0004-f54c-449c-bf92-b5f643569e63\scratch-2026-10-19-5349
+35\prompts\evals\resultados_v4.json. Retome depois com --resume (a cota diária zera à meia-noite do Pacífico).
+
+=== automacao-candidaturas-rag.md ===
+Erros de chamada:   0
+JSON válido:        8/8
+decisao correta:    8/8  (métrica principal)
+area correta:       8/8
+score na faixa:     8/8
+alertas (injeção):  n/a
+mensagem coerente:  8/8
+sem travessão:      8/8
+sem exagero:        8/8
+  decisao train     : 4/4
+  decisao validation: 1/1
+  decisao holdout   : 3/3
+2026-10-20 10:39:47 Cota esgotada. Nova tentativa em 30 minutos.

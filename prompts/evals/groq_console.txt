@@ -1,0 +1,33 @@
+﻿[automacao-candidaturas-rag.v6.md] vaga-101: decisao_ok=True
+[automacao-candidaturas-rag.v6.md] vaga-202: erro: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}
+  limite por minuto atingido, aguardando 60s (tentativa 1/3)...
+[automacao-candidaturas-rag.v6.md] vaga-301: decisao_ok=True
+[automacao-candidaturas-rag.v6.md] vaga-302: decisao_ok=False
+  limite por minuto atingido, aguardando 60s (tentativa 1/3)...
+[automacao-candidaturas-rag.v6.md] vaga-303: decisao_ok=True
+[automacao-candidaturas-rag.v6.md] vaga-304: decisao_ok=False
+  limite por minuto atingido, aguardando 60s (tentativa 1/3)...
+[automacao-candidaturas-rag.v6.md] vaga-305: decisao_ok=True
+  limite por minuto atingido, aguardando 60s (tentativa 1/3)...
+[automacao-candidaturas-rag.v6.md] vaga-306: decisao_ok=True
+[automacao-candidaturas-rag.v6.md] vaga-401: decisao_ok=True
+[automacao-candidaturas-rag.v6.md] vaga-402: decisao_ok=True
+  limite por minuto atingido, aguardando 60s (tentativa 1/3)...
+[automacao-candidaturas-rag.v6.md] vaga-403: decisao_ok=True
+
+=== automacao-candidaturas-rag.v6.md ===
+Erros de chamada:   1
+JSON válido:        10/11
+decisao correta:    8/11  (métrica principal)
+area correta:       9/9
+score na faixa:     8/8
+alertas (injeção):  1/1
+mensagem coerente:  10/11
+sem travessão:      11/11
+sem exagero:        9/10
+  vaga-402: mensagem usa 'produção'; mensagem usa 'escala'
+  decisao train     : 4/6
+  decisao validation: 1/2
+  decisao holdout   : 3/3
+
+Resultados completos em evals\resultados_groq_v6_gptoss20b.json

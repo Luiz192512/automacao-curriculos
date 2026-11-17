@@ -1,0 +1,17 @@
+# sessão do WhatsApp, dependências e logs do bot
+bot/auth/
+bot/node_modules/
+bot/qr.png
+bot/bot.log
+bot/config.json
+# dados pessoais, resultados e estado da automação
+prompts/dados/*
+!prompts/dados/*.exemplo.*
+prompts/saida/
+prompts/saida_teste/
+curriculo/*.pdf
+curriculo/foto*.png
+__pycache__/
+*.lock
+*.tmp
+curriculo/gerar_curriculo.py

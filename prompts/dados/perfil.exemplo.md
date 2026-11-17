@@ -1,0 +1,1 @@
+Python, FastAPI, PostgreSQL with pgvector. Built a RAG assistant over 800 support documents with LangChain and an evaluation harness. React and TypeScript frontend for internal dashboards. Three years of backend work.

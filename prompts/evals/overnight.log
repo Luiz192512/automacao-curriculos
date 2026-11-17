@@ -1,0 +1,22 @@
+2026-10-19 20:37:57 Suspensão do Windows bloqueada enquanto o script roda.
+2026-10-19 20:37:57 Aguardando a cota zerar. Início às 2026-10-20T07:05:00+00:00, faltam 7.5 h.
+2026-10-19 21:07:57 Aguardando a cota zerar. Início às 2026-10-20T07:05:00+00:00, faltam 7.0 h.
+2026-10-19 21:37:57 Aguardando a cota zerar. Início às 2026-10-20T07:05:00+00:00, faltam 6.5 h.
+2026-10-19 22:07:57 Aguardando a cota zerar. Início às 2026-10-20T07:05:00+00:00, faltam 6.0 h.
+2026-10-20 09:13:29 Suspensão do Windows bloqueada enquanto o script roda.
+2026-10-20 09:13:29 Aguardando a cota zerar. Início às 2026-10-21T07:05:00+00:00, faltam 18.9 h.
+2026-10-20 09:25:28 Suspensão do Windows bloqueada enquanto o script roda.
+2026-10-20 09:25:28 Etapa 1: medindo a v4.
+2026-10-20 09:25:28 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+2026-10-20 09:27:44 Alguns casos terminaram com erro (por exemplo, 503). Nova tentativa em 5 minutos.
+2026-10-20 09:32:44 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+2026-10-20 09:36:41 Suspensão do Windows bloqueada enquanto o script roda.
+2026-10-20 09:36:41 Etapa 1: medindo a v4.
+2026-10-20 09:36:41 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+2026-10-20 09:52:13 Alguns casos terminaram com erro (por exemplo, 503). Nova tentativa em 5 minutos.
+2026-10-20 09:57:13 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+2026-10-20 10:02:33 Alguns casos terminaram com erro (por exemplo, 503). Nova tentativa em 5 minutos.
+2026-10-20 10:07:33 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+2026-10-20 10:09:46 Cota esgotada. Nova tentativa em 30 minutos.
+2026-10-20 10:39:46 Executando: automacao-candidaturas-rag.md -> resultados_v4.json (resume=True)
+2026-10-20 10:39:47 Cota esgotada. Nova tentativa em 30 minutos.

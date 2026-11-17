@@ -1,0 +1,16 @@
+{
+  "name": "bot-whatsapp-candidaturas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Envia no WhatsApp os resumos das candidaturas, sem navegador. Le a pasta outbox e envia cada arquivo.",
+  "scripts": {
+    "login": "node whatsapp_bot.mjs login",
+    "run": "node whatsapp_bot.mjs run"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4"
+  }
+}

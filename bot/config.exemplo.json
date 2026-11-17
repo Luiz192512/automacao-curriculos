@@ -1,0 +1,16 @@
+{
+  "destino": "55DDNUMERO",
+  "origem_descricao": "conta que escanear o QR no comando login",
+  "donos": [
+    "<numero>@lid"
+  ],
+  "conversar": "../prompts/conversar.py",
+  "fila": "../prompts/aplicar_fila.py",
+  "outbox": "../prompts/saida/outbox",
+  "enviadas": "../prompts/saida/enviadas",
+  "falhas": "../prompts/saida/falhas",
+  "intervalo_segundos": 5,
+  "pausa_entre_mensagens_segundos": 4,
+  "max_mensagens_por_hora": 30,
+  "max_tentativas": 5
+}
